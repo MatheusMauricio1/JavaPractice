@@ -1,0 +1,28 @@
+package exercises;
+import java.util.Scanner;
+
+public class OddOrEven {
+	public static void main(String[] args) {
+		/*
+		 *  Create a program that receives a number and verify if it is between 0 to 10 and if it is even. 
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Please type a value between 0 to 10: ");
+		int value = sc.nextInt();	
+		
+		if(value >= 0 && value <= 10) {
+			int calc = value % 2;
+			if(calc == 0) {
+				System.out.println("It's an even number.");
+			}
+			else {
+				System.out.println("It's an odd number.");
+			}
+		}
+		else {
+			System.out.println("The number that you've typed is not a number between 0 and 10.");
+		}
+		sc.close();
+	
+	} 
+}

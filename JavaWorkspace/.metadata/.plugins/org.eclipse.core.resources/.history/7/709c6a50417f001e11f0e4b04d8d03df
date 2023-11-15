@@ -1,0 +1,62 @@
+package exercises;
+import java.util.Scanner;
+
+public class DaysOfTheWeek {
+	public static void main (String[] args) {
+		/* This is just a stupid practice for IF and ELSE 
+		 * Sunday - 1
+		 * Monday - 2
+		 * Tuesday - 3
+		 * Wednesday - 4
+		 * Thursday - 5
+		 * Friday - 6
+		 * Saturday - 7		  
+		 * */
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Please, digit a day of the week to obtain it's number: ");
+		
+		String answer = sc.nextLine();
+				
+		String convertedAnswer = answer.toLowerCase();
+
+		System.out.println(convertedAnswer);
+				
+		int number;
+		
+		if(answer == "sunday") {
+			number = 1;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if(answer == "monday"){
+			number = 2;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if(answer == "tuesday"){
+			number = 3;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if(answer == "wednesday"){
+			number = 4;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if(answer == "thursday"){
+			number = 5;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if(answer == "friday"){
+			number = 6;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if(answer == "saturday"){
+			number = 7;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else {
+			System.out.print("Sorry! But the value that you've type is invalid. Feel free to try again.");
+		}
+		
+		sc.close();
+	}
+}

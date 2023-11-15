@@ -1,0 +1,25 @@
+package fundamentals;
+
+public class Switch {
+	public static void main(String[] args) {
+		
+		String medal = "Harold";
+		
+		switch(medal.toLowerCase()) {
+		case "Divine":
+			System.out.println("I'm almost a immortal");
+		case "Ancient":
+			System.out.println("I'm almost a divine");
+		case "Legend":
+			System.out.println("I'm almost a ancient");
+		case "Archon":
+			System.out.println("I'm almost a legend");
+		case "Crusader":
+			System.out.println("I'm almost a archon");
+		case "Guardian":
+			System.out.println("I'm almost a crusader");
+		default:
+			System.out.println("I'm a Harold D:");
+		}
+	}
+}

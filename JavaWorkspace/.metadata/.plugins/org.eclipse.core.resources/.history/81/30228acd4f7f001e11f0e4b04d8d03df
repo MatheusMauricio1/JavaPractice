@@ -1,0 +1,28 @@
+package exercises;
+import java.util.Scanner;
+
+public class ConditionalWhile1 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("If you want to exit this program type 'exit'");
+		String answer;
+
+		
+		while(!answer.equals("exit")) {
+			System.out.println("Lmao, get f'ed!");
+			answer = sc.next();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+		
+	}
+}

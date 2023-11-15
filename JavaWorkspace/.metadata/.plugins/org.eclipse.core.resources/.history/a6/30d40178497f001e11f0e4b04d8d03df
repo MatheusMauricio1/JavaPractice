@@ -1,0 +1,24 @@
+package fundamentals;
+import java.util.Scanner;
+
+public class ASDA {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	
+		String answer = sc.next();
+		
+		int counter = 0
+		
+		while(counter < 10)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		sc.close();
+	}
+}

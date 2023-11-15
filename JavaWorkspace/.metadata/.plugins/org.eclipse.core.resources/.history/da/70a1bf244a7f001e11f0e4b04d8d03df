@@ -1,0 +1,19 @@
+package fundamentals;
+
+public class WhileCounter {
+	public static void main(String[] args) {			
+		int counter = 0;
+		int counter2 = 0;
+		
+		while(counter < 10) {
+			counter++;
+			System.out.println(counter);
+		}
+		
+		while(counter2 <= 20) {
+			counter2 += 2;
+			System.out.printf("\n i = %s", counter);
+		}
+	
+	}
+}

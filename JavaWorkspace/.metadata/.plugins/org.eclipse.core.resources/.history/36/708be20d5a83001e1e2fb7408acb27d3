@@ -1,0 +1,31 @@
+package exercises;
+
+import java.util.Scanner;
+
+public class GuessGame {
+	public static void main(String[] args) {
+		/*
+		 * Just a game that a person has to guess which number is the right one between 0 up to 100 within only 10 guesses.
+		 * 
+		 * */
+		
+		Scanner sc = new Scanner(System.in);
+
+		int numberToBeGuessed = 47;
+		int answer;
+		
+		System.out.println("Welcome! This is a game which you will have to guess the right number between 0 up to 100.");
+		
+		
+		for(int counter = 1; counter <= 10; counter++) {
+			System.out.print("Please, type a number, you have only 10 guesses!: ");
+			int answer = sc.nextInt();
+		}while()
+		
+		
+		
+		
+		sc.close();
+		
+	}
+}

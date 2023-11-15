@@ -1,0 +1,43 @@
+package exercises;
+import java.util.Scanner;
+
+public class WhileExercise {
+	public static void main(String[] args) {
+		/* This is an exercise that i will be doing in order to practice the while and for repetition .
+		 * 
+		 * User will be required to type a valid note(0 to 10).
+		 * When the user type a valid note, the value will be added to a "TOTAL" variable. 
+		 * Another variable is needed in order to count how many times the user has inserted a valid value.
+		 * 
+		 * At the end the program will show the final note(total / counter).
+		 * In order to close the console the user must type "-1";
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		int answer;
+		int total = 0;
+		int counter = 0;
+		
+		
+		
+		
+		do {
+			System.out.print("Please type a note between 0 to 10, or type -1 to close the console: ");
+			answer = sc.nextInt();
+			total += answer;
+		}while(answer != -1 && answer >= 0 && answer <= 10);
+		
+		if(answer > -1) {
+			counter++;
+		}
+		
+		else if(answer == -1 && total > 0) {
+			int finalNote = total / counter;
+			System.out.println("Final note: " + finalNote);
+			System.out.println(counter);
+		}
+				
+		sc.close();
+
+	}
+}

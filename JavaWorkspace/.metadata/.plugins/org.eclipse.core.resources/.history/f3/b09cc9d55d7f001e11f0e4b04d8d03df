@@ -1,0 +1,24 @@
+package exercises;
+import java.util.Scanner;
+
+public class WhileExercise {
+	public static void main(String[] args) {
+		/* This is an exercise that i will be doing in order to practice the while and for repetition .
+		 * 
+		 * User will be required to type a valid note(0 to 10).
+		 * When the user type a valid note, the value will be added to a "TOTAL" variable. 
+		 * Another variable is needed in order to count how many times the user has inserted a valid value.
+		 * In order to close the console the user must type "exit";
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		int answer = 0;
+		int total = 0;
+		int counter = 0;
+		
+		
+		
+		sc.close();
+		}
+	}
+}

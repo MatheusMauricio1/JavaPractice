@@ -1,0 +1,17 @@
+package exercises;
+import java.util.Scanner;
+
+public class BhaskaraCalc {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Please, inform the a, b, c values." );
+		
+		System.out.print("a: " );
+
+		System.out.print("b: " );
+
+		System.out.print("c: " );
+
+	}
+}

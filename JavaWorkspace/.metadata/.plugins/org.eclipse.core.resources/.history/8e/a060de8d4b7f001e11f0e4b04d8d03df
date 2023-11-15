@@ -1,0 +1,12 @@
+package fundamentals;
+
+public class ForRepetition {
+	public static void main(String[] args) {
+		
+		int b = 0;
+		
+		for(int a = 0; b < 10; b++) {
+			System.out.println("Hello World!");
+		}
+	}
+}

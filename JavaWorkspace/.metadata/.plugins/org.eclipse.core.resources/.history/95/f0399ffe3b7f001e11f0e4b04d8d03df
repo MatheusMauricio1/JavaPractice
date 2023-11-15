@@ -1,0 +1,34 @@
+package exercises;
+import java.util.Scanner;
+
+public class DaysOfTheWeek {
+	public static void main (String[] args) {
+		/* This is just a stupid practice for IF and ELSE 
+		 * Sunday - 1
+		 * Monday - 2
+		 * Tuesday - 3
+		 * Wednesday - 4
+		 * Thursday - 5
+		 * Friday - 6
+		 * Saturday - 7		  
+		 * */
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Please, digit a day of the week to obtain it's number: ");
+		
+		String answer = sc.next();
+		
+		int number;
+		
+		if(answer == "Sunday") {
+			number = 1;
+			System.out.printf("%s's number is: %s", answer, number);
+		}
+		else if{
+			
+		}
+		
+		
+	}
+}

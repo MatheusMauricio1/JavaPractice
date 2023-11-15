@@ -1,0 +1,17 @@
+package exercises;
+
+public class ForChallenge {
+	public static void main(String[] args) {
+		
+		String value = "#";
+		for(int i = 1; i <= 5; i++) {
+			System.out.println(value);
+			value += "#";
+		}
+
+		// The challenge is using "for" but without any numeric value as a parameter of repetition
+		
+		
+		
+	}
+}

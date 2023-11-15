@@ -1,0 +1,9 @@
+package exercises;
+
+public class TriangleAreaCalc {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

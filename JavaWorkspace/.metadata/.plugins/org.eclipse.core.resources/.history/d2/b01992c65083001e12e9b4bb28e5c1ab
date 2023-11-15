@@ -1,0 +1,24 @@
+package exercises;
+import java.util.Scanner;
+
+public class AverageCalc {
+	public static void main() {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Please type the first grade's value");
+		int gradeOne = sc.nextInt();
+		
+		System.out.print("Please type the second grade's value: ");
+		int gradeTwo = sc.nextInt();
+		
+		double average = (double) gradeOne + (double) gradeTwo / 2;
+		
+		if 
+		
+		
+		
+		sc.close();
+		
+		
+	}
+}

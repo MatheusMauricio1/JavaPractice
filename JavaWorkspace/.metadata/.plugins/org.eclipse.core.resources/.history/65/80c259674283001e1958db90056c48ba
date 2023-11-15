@@ -1,0 +1,17 @@
+package exercises;
+import java.util.Scanner;
+
+public class OddOrEven {
+	public static void main(String[] args) {
+		/*
+		 *  Create a program that receives a number and verify if it is between 0 to 10 and if it is even. 
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Please type a value between 0 to 10: ");
+		
+		
+		
+		sc.close();
+	
+	} 
+}

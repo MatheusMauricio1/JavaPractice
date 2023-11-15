@@ -1,0 +1,16 @@
+package fundamentals;
+
+public class Switch {
+	public static void main(String[] args) {
+		
+		String medal = "Harold";
+		
+		switch(medal.toLowerCase()) {
+		case "Divine":
+			System.out.println("I'm almost a immortal");
+			
+		}
+		
+		
+	}
+}

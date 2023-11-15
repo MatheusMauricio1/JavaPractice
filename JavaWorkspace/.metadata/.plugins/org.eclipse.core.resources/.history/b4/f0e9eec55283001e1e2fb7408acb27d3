@@ -1,0 +1,7 @@
+package exercises;
+
+public class PrimalNumber {
+	public static void main(String [] args) {
+		
+	}
+}

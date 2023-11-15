@@ -1,0 +1,13 @@
+package exercises;
+
+public class GuessGame {
+	public static void main(String[] args) {
+		/*
+		 * Just a game that a person has to guess which number is the right one between 0 up to 100.
+		 * 
+		 * */
+		
+		
+		
+	}
+}

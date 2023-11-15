@@ -1,0 +1,10 @@
+package fundamentals;
+
+public class asdadsda {
+	public static void main(String[] args) {
+		
+		int calc = 2000 % 4;
+		
+		System.out.println(calc);
+	}
+}

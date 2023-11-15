@@ -1,0 +1,27 @@
+package exercises;
+import java.util.Scanner;
+
+public class DeltaCalc {
+	public static void main(String[] args) {
+		/* This is a delta calculator. */
+
+		Scanner sc = new Scanner(System.in);
+				
+		System.out.println("Please, inform the a, b, c values." );
+		
+		System.out.print("a = " );
+		double a = sc.nextDouble();
+		
+		System.out.print("b = " );
+		double b = sc.nextDouble();
+
+		System.out.print("c = " );
+		double c = sc.nextDouble();
+
+		double delta = Math.pow(b, 2) - 4 * (a * c);
+		
+		System.out.printf("Δ = %s", (int) delta);
+		
+		
+	}
+}

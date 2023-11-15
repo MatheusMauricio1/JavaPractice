@@ -1,0 +1,23 @@
+package fundamentals;
+
+public class Switch {
+	public static void main(String[] args) {
+		
+		String concept = "";
+		int points;
+		
+		switch(points) {
+		case 10: case  9:
+			concept = "A";
+		break;
+		
+		
+		
+		
+		}
+		
+		
+		
+	}
+	}
+
