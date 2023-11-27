@@ -1,0 +1,15 @@
+package exercises;
+
+
+public class OutsideMainChallenge {
+
+	int a = 3; // cannot change this line
+	
+	public static void main(String[] args) {
+		
+		
+		OutsideMainChallenge.class.getField(a);
+		System.out.println(a);
+	}
+	
+}

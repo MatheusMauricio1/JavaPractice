@@ -1,0 +1,8 @@
+package exercises;
+
+public class Date_Class {
+	String day;
+	String month;
+	String year;
+	
+}

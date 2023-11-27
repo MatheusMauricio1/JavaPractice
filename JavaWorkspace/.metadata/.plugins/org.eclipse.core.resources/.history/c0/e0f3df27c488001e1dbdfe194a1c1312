@@ -1,0 +1,17 @@
+package essentials;
+
+public class Class_Product {
+		/*
+		 * I will use this code in order to learn how classes and objects works together in JAVA.
+		 * But it's nothing more than a simple exercise or foundations of OOP.
+		 * */
+		String name;
+		double price;
+		double discount;
+		
+		double discountedPrice(double pPrice, double pDiscount) {
+			double finalPrice = pPrice - ((pDiscount * pPrice) / 100);
+			return finalPrice;
+		}
+		
+}

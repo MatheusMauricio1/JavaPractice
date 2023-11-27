@@ -1,0 +1,11 @@
+package essentials;
+
+public class Class_Product_Test {
+	public static void main(String[] args) {
+		/*
+		 * This is where i'm going to test the linking between classes.
+		 * 
+		 * */
+		Class_Product p1 = new Class_Product();
+	}
+}

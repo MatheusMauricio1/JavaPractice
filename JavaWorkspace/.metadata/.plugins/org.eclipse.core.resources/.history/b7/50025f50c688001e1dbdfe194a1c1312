@@ -1,0 +1,12 @@
+package exercises;
+
+public class Date_Class {
+	int day;
+	int month;
+	int year;
+	
+	String formatDate() {
+		String formatedDate ="";
+		return formatedDate.formatted("%d/%d/%d", day, month, year);
+	}
+}

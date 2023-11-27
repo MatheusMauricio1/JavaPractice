@@ -1,0 +1,33 @@
+package exercises;
+
+import classExercises.FoodClass;
+import classExercises.PersonClass;
+
+public class DinnerClass {
+	public static void main(String[] args) {
+		FoodClass food1 = new FoodClass("Rice", 0.200);
+		FoodClass food2 = new FoodClass("Beans", 0.150);
+		FoodClass food3 = new FoodClass("Chicken", 0.320);
+		
+		PersonClass person1 = new PersonClass("Johnn", 80.0);
+		
+		System.out.printf("%s's actual weight is: %.2f KGs.\n",person1.name, person1.weight);
+
+		person1.eat(food1);
+		person1.eat(food2);
+		person1.eat(food3);
+		
+		double gainedWeight = food1.foodWeight + food2.foodWeight + food3.foodWeight;
+		
+		System.out.printf("After %s'd eaten %s with %s and %s.\n", person1.name, food1.foodName, food2.foodName, food3.foodName);
+		
+		if(gainedWeight > 1.0) {
+			System.out.printf("%s's gained: %.2f KGs.", person1.name, gainedWeight);
+		}
+		else {
+			System.out.printf("%s's gained: %.2f Gs.\n", person1.name, gainedWeight);
+		}
+		System.out.printf("Now %s's weight is: %.2f KGs.", person1.name, person1.weight);
+		
+	}
+}

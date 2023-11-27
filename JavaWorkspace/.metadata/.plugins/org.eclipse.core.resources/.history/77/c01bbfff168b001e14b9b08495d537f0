@@ -1,0 +1,16 @@
+package exercises;
+
+
+public class OutsideMainChallenge {
+
+	int a = 3; // cannot change this line
+	
+	public static void main(String[] args) {
+		
+		int b = new int(a);
+		
+		System.out.println();
+		
+	}
+	
+}

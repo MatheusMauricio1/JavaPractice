@@ -1,0 +1,17 @@
+package exercises;
+
+import java.io.PrintStream;
+
+public class OutsideMainChallenge {
+
+	int a = 3; // cannot change this line
+	
+	public static void main(String[] args) {
+		
+		
+		
+		printStream.println(a);
+		
+	}
+	
+}

@@ -1,0 +1,11 @@
+package essentials;
+
+public class CircArea {
+	
+	double ray;
+	double pi;
+	
+	CircArea(double initialRay){
+		ray = initialRay;
+	}
+}

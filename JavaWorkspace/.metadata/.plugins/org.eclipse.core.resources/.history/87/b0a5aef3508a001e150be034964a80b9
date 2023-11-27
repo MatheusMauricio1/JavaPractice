@@ -1,0 +1,15 @@
+package essentials;
+
+public class CircArea {
+	
+	double ray;
+	static double pi = 3.14;
+	
+	CircArea(double initialRay){
+		ray = initialRay;
+	}
+
+	double area() {
+		return ray * Math.pow(ray, 2);
+	}
+}

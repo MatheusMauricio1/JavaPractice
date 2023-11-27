@@ -1,0 +1,25 @@
+package exercises;
+
+public class Date_Class {
+	int day;
+	int month;
+	int year;
+	
+	Date_Class(){
+	day = 1;
+	month = 1;
+	year = 1970;
+	
+	
+	}
+	
+	Date_Class(int initialDay, int initialMonth, int initialYear){
+		day = initialDay;
+		month = initialMonth;
+		year = initialYear;
+	}
+	
+	String formatDate() {
+		return String.format("%d/%d/%d", day, month, year);
+	}
+}

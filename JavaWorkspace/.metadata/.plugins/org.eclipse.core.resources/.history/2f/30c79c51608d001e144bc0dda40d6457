@@ -1,0 +1,16 @@
+package exercises;
+
+public class PersonClass {
+	String name;
+	double weight;
+	
+	
+	PersonClass(name, weight){
+		
+	}
+	
+	void eat(FoodClass food){
+		this.weight += food.foodWeight;
+	} 
+	
+}

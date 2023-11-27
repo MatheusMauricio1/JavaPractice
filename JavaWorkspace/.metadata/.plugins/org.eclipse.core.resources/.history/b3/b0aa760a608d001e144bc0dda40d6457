@@ -1,0 +1,10 @@
+package exercises;
+
+public class DinnerClass {
+	public static void main(String[] args) {
+		FoodClass food1 = new FoodClass("Rice", 0.2);
+		FoodClass food2 = new FoodClass("Beans", 0.1);
+		FoodClass food3 = new FoodClass("Chicken", 0.320);
+		
+	}
+}

@@ -1,0 +1,10 @@
+package fundamentals;
+
+public class Class_Product {
+	public static void main(String[] args) {
+		/*
+		 * I will use this code in order to learn how classes and objects works together in JAVA.
+		 * 
+		 * */
+	}
+}

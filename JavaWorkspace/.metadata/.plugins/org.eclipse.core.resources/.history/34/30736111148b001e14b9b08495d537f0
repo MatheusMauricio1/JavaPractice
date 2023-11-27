@@ -1,0 +1,9 @@
+package exercises;
+
+public class OutsideMainChallenge {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+package exercises;
+
+public class FoodClass {
+	String foodName;
+	double foodWeight;
+
+	FoodClass(){
+		
+	}
+}

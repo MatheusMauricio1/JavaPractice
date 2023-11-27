@@ -1,0 +1,20 @@
+package exercises;
+
+public class Date_Class_Test {
+	public static void main(String[] args){
+		Date_Class randomDate1 = new Date_Class();
+		Date_Class randomDate2 = new Date_Class();
+
+		randomDate1.day = 11;
+		randomDate1.month = "January";
+		randomDate1.year = 2002;
+		
+		randomDate2.day = 23;
+		randomDate2.month = "February"; 
+		randomDate2.year = 1998;
+		
+		
+		
+		
+	}
+}

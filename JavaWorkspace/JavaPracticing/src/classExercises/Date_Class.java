@@ -1,0 +1,23 @@
+package classExercises;
+
+public class Date_Class {
+	int day;
+	int month;
+	int year;
+	
+	Date_Class(){
+		day = 1;
+		month = 1;
+		year = 1970;
+	}
+	
+	Date_Class(int day, int month, int year){
+		this.day = day;
+		this.month = month;
+		this.year = year;
+	}
+	
+	String formatDate() {
+		return String.format("%d/%d/%d", day, month, year);
+	}
+}
