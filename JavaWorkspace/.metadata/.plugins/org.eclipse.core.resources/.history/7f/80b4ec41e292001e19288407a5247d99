@@ -1,0 +1,9 @@
+package essentials;
+
+public class EqualsAndHashcode {
+
+	
+	String name;
+	String email;
+	
+}

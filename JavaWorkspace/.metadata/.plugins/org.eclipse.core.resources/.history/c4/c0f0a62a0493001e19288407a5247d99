@@ -1,0 +1,13 @@
+package essentials;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Sets {
+	public static void main(String[] args) {
+		SortedSet<String> list = new TreeSet<>();
+		list.add("Peter");
+		list.add("Silver");
+		list.add("Ana");
+	}
+}

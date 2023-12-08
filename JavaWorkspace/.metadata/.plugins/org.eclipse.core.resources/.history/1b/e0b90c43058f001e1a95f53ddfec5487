@@ -1,0 +1,29 @@
+package arrays;
+import java.util.Scanner;
+
+
+public class Matrixes {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many students?");
+		int studentsQnt = sc.nextInt();
+		
+		System.out.println("How many grades by student?");
+		int gradeByStudent = sc.nextInt();
+		
+		
+		double[][] studentsGrades = new double[studentsQnt][gradeByStudent];
+		
+		for (int i = 0; i < studentsGrades.length; i++) {
+			for(int j =0; i < studentsGrades.length; i++) {
+				
+			}
+		}
+		
+		
+		sc.close();
+		
+		
+		
+	}
+}

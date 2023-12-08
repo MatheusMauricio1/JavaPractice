@@ -1,0 +1,12 @@
+package essentials;
+
+public class User {
+	String name;
+	String email;
+	
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj)
+	}
+	
+}

@@ -1,0 +1,22 @@
+package collections;
+
+public class EqualsAndHashcode {
+	public static void main(String[] args) {
+		
+		User u1 = new User();
+		u1.email = "bubu@gmail.com";
+		u1.name = "Dmtri";
+		
+		
+		User u2 = new User();
+		u2.email = "bubu@gmail.com";
+		u2.name = "Dmtri";
+		
+		System.out.println(u1 == u2); 
+		System.out.println(u1.equals(u2));
+		System.out.println(u2.equals(u1));
+		// Why it returns false -> Both objects are alocated in differents objects.
+		// Since we've overrided the equals method in our class, now both will be given as true.
+		
+	}
+}

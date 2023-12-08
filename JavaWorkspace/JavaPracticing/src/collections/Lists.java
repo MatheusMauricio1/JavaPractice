@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class Lists {
+
+	public static void main(String[] args) {
+		ArrayList<User> usersList = new ArrayList<>();
+		
+		User u1 = new User("Carlos", "carlos@gmail.com");
+		usersList.add(new User("Maria", "maria@gmail.com"));
+		usersList.add(u1);
+	
+		for(User user: usersList) {
+			System.out.println(user);
+		}
+		
+		System.out.println(usersList.get(0));
+	}
+	
+}

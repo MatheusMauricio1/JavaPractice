@@ -1,0 +1,19 @@
+package essentials;
+
+public class User {
+	String name;
+	String email;
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		if(obj instanceof User) {
+		User other = (User) obj;
+		return other.name == this.name; 
+		}
+		else {
+		return false;
+		}
+	}
+	
+}

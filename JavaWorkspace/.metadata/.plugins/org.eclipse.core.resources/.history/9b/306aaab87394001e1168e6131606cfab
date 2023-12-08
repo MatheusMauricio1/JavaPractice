@@ -1,0 +1,14 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class Lists {
+
+	public static void main(String[] args) {
+		ArrayList<User> usersList = new ArrayList<>();
+		
+		usersList.add("Maria", "maria@gmail.com");
+		
+	}
+	
+}

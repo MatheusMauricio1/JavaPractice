@@ -1,0 +1,9 @@
+package essentials;
+
+public class User {
+	String name;
+	String email;
+	
+	
+	
+}

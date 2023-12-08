@@ -7,4 +7,11 @@
     <fullyQualifiedTypeName name="essentials.Class_Product"/>
     <fullyQualifiedTypeName name="exercises.OutsideMainChallenge"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
 </qualifiedTypeNameHistroy>

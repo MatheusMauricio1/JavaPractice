@@ -1,0 +1,38 @@
+package collections;
+
+public class User {
+	String name;
+	String email;
+	
+	
+	User(){
+		
+	}
+	
+	User(String name, String email){
+		this.name = name;
+		this.email = email;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "My name is " + this.name;
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof User){
+			User other = (User) obj;
+			boolean sameName = other.name.equals(this.name); 
+			boolean sameEmail = other.email.equals(this.email);
+			
+			return sameName && sameEmail;
+		}
+		else {
+			return false;
+		}
+	}
+	
+}
